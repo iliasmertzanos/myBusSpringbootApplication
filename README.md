@@ -22,4 +22,4 @@ The project is based on :
 * First approach was that the controller gets all the drivers from the data base and then filters the list using predicates. For every attribute there is small POJO class that is automatically called and it provides an appropriate predicate. See method in the DriverController --> public List<DriverWithBusDTO> filterDrivers(@RequestBody  GroupedCriteria myGroupCriteria).
 * Previews solution was nice to implement but what about scalability??? Therefore I came up with a better one using Specifications and reducing the amount of code that I really needed to 1/3 from what I was using before. See method in the DriverController --> public List<DriverWithBusDTO> filterDriversUsingCriteria(@RequestBody  CriteriaGroup myGroupCriteria).
 * Both methods accept the attributes as they are defined in ENUMs in the package com.myBusApp.domainvalue
-* The API is test on all layers using JUnit and the test classes are to be found in the package src\test\java\com\myBus
+* The API is tested on all layers using JUnit and the test classes are to be found in the package src\test\java\com\myBus
