@@ -24,5 +24,5 @@ The project is based on :
 * Previews solution was nice to implement but what about scalability??? Therefore I came up with a better one using Specifications and reducing the amount of code that I really needed to 1/3 from what I was using before. See method in the `DriverController public List<DriverWithBusDTO> filterDriversUsingCriteria(@RequestBody  CriteriaGroup myGroupCriteria)`.
 * Both methods accept the attributes as they are defined in ENUMs in the package `com.myBusApp.domainvalue`
 * The API is tested on all layers using JUnit and the test classes are to be found in the package `src\test\java\com\myBus`
-* You should be able to start the example application by executing com.myBus.MyBusApplication, which starts a webserver on port 8080 (http://localhost:8080) and serves SwaggerUI where can inspect and try existing endpoints (over http://localhost:8080/).
+* You should be able to start the example application by executing `com.myBusApp.MyBusApplication`, which starts a webserver on port 8080 (http://localhost:8080) and serves SwaggerUI where can inspect and try existing endpoints (over http://localhost:8080/).
 
