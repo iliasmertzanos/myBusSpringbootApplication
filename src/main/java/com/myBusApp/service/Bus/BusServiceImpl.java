@@ -45,7 +45,6 @@ public class BusServiceImpl implements BusInterfaceService {
      * @return BusDO
      * @throws ConstraintsViolationException if a bus with same license plate
      *  already exists
-     * @return BusDO
      */
 	@Override	
 	public BusDO create(BusDO bus) throws ConstraintsViolationException {
