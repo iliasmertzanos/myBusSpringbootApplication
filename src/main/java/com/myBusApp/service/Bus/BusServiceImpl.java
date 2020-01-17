@@ -41,7 +41,7 @@ public class BusServiceImpl implements BusInterfaceService {
      * Creates a new driver.
      * Checks if bus already exist
      *
-     * @param driverDO
+     * @param bus
      * @return BusDO
      * @throws ConstraintsViolationException if a bus with same license plate
      *  already exists
